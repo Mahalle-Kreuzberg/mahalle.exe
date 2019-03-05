@@ -27,14 +27,6 @@ markdown: kramdown
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
-  - jekyll-autoprefixer
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
-  
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
