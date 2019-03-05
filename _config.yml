@@ -18,8 +18,7 @@ email: exe@mahalle.de
 description: >- # this means to ignore newlines until "baseurl:"
   Mahalle.exe - Eine monatliche Veranstaltung von und mit linken Techies im Mahalle in Berlin Kreuzberg.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mahalle-kreuzberg
+url: "https://exe.mahalle.de"
 github_username:  mahalle-kreuzberg
 
 # Build settings
