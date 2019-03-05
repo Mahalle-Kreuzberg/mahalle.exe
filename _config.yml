@@ -18,23 +18,14 @@ email: exe@mahalle.de
 description: >- # this means to ignore newlines until "baseurl:"
   Mahalle.exe - Eine monatliche Veranstaltung von und mit linken Techies im Mahalle in Berlin Kreuzberg.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mahalle-kreuzberg
+url: "https://exe.mahalle.de"
 github_username:  mahalle-kreuzberg
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-autoprefixer
-
-# Sass
-sass:
-  sass_dir: _sass
-  style: compressed
-  
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -47,3 +38,6 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+sass:
+  sass_dir: _sass
+  style: compressed
